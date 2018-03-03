@@ -1,7 +1,5 @@
 <div align="center">
-
-![alt text](https://imtec.ba/img/pt-express-logo-1460547663.jpg "Imtec logo")
-
+    <img src="https://imtec.ba/img/pt-express-logo-1460547663.jpg">
 </div>
 
 # Official Imtec Android App
