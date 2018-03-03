@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.murtic.adis.techyz.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="@color/colorPrimary"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <!-- Fab Action Menu -->
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|end"
+        fab:menu_colorNormal="@color/colorAccent"
+        >
+
+        <!-- podrska korisnicima -->
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_podrska"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_message_bitmap"
+            fab:fab_label="@string/imtec_fab_podrska"
+            fab:fab_size="mini"
+            fab:fab_colorNormal="@color/blue"
+            />
+
+        <!-- aktuelni katalog -->
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_katalog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_katalog_bitmap"
+            fab:fab_label="@string/imtec_fab_katalog"
+            fab:fab_size="mini"
+            fab:fab_colorNormal="@color/red_dark"
+            />
+
+        <!-- imtec poslovnice -->
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_poslovnice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_store_bitmap"
+            fab:fab_label="@string/imtec_fab_poslovnice"
+            fab:fab_size="mini"
+            fab:fab_colorNormal="@color/colorAccent"
+            />
+
+        <!-- registracija aplikacije -->
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_registracija"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_registracija"
+            fab:fab_label="@string/imtec_fab_registracija"
+            fab:fab_size="mini"
+            fab:fab_colorNormal="@color/colorPrimary"
+            />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</android.support.design.widget.CoordinatorLayout>

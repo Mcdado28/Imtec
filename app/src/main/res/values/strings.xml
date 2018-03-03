@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Imtec</string>
+    <string name="app_summary">Android Aplikacija</string>
+    <string name="app_version_title">Verzija</string>
+    <string name="app_version_value">2.00</string>
+    <string name="app_author_title">Autor</string>
+    <string name="app_author_value">Imtec d.o.o</string>
+    <string name="app_about_title">Info</string>
+    <string name="app_about_value">Zaljubljeni ste u tehnologiju? Kod nas možete naći sve što Vam je potrebno. Sa Imtec Computer and Technology android aplikacijom ostvarujete popuste, kupujete online, učestvujete u nagradnim igrama i još mnogo toga što slijedi.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- navigation items -->
+    <string name="qr_code_scanner">QR Code Scanner</string>
+    <string name="imtec_postavke">Postavke</string>
+    <string name="imtec_home">Pocetna</string>
+    <string name="imtec_akcije">Akcije i katalozi</string>
+    <string name="imtec_video_recenzije">Video recenzije</string>
+    <string name="imtec_poslovnice">Poslovnice</string>
+    <string name="imtec_garancija">Garancija</string>
+    <string name="imtec_servis">Servis</string>
+    <string name="imtec_placanje">Placanje</string>
+    <string name="imtec_narudzba">Narudzba</string>
+    <string name="imtec_prijava">Prijava</string>
+    <string name="imtec_korpa">Korpa</string>
+    <string name="imtec_zamjena">Zamjena</string>
+    <string name="imtec_reklamacija">Reklamacija</string>
+    <string name="imtec_kontakti">Kontakti</string>
+
+    <!-- navigation links -->
+    <string name="imtec_home_url">http://imtec.ba/appimtec</string>
+    <string name="imtec_akcije_url">http://imtec.ba/appimtec/akcije.html</string>
+    <string name="imtec_video_recenzije_url">http://imtec.ba/appimtec/videorecenzije.html</string>
+    <string name="imtec_poslovnice_url">http://imtec.ba/appimtec/poslovnice.html</string>
+    <string name="imtec_garancija_url">http://imtec.ba/appimtec/garancija.html</string>
+    <string name="imtec_servis_url">http://imtec.ba/appimtec/servis.html</string>
+    <string name="imtec_placanje_url">http://imtec.ba/appimtec/placanje.html</string>
+    <string name="imtec_narudzba_url">http://imtec.ba/appimtec/kakonaruciti.html</string>
+    <string name="imtec_prijava_url">https://imtec.ba/login?back=my-account</string>
+    <string name="imtec_korpa_url">https://imtec.ba/order</string>
+    <string name="imtec_zamjena_url">http://imtec.ba/appimtec/zamjena.html</string>
+    <string name="imtec_reklamacija_url">http://imtec.ba/appimtec/reklamacija.html</string>
+    <string name="imtec_kontakti_url">http://imtec.ba/appimtec/kontakt.html</string>
+
+    <!-- fab menu item labels -->
+    <string name="imtec_fab_podrska">Podrska korisnicima</string>
+    <string name="imtec_fab_katalog">Aktuelni katalog</string>
+    <string name="imtec_fab_poslovnice">Imtec poslovnice</string>
+    <string name="imtec_fab_registracija">Registrujte svoj App</string>
+
+    <!-- fab menu item links -->
+    <string name="imtec_fab_podrska_url">https://imtec.ba/contact-us</string>
+    <string name="imtec_fab_katalog_url">http://imtec.ba/katalog/katalog.pdf</string>
+    <string name="imtec_fab_poslovnice_url">http://imtec.ba/appimtec/poslovnice.html</string>
+
+    <!-- no connection alrert dialog text -->
+    <string name="imtec_alert_nc_title">Imtec Aplikacija</string>
+    <string name="imtec_alert_nc_text">Nemate internet konekcije. Konektujte se i pokušajte ponovo !</string>
+    <string name="imtec_alert_nc_ok">Ukljuci Wifi</string>
+    <string name="imtec_alert_nc_cancel">Pokušajte ponovo</string>
+
+    <!-- barcode scanner text -->
+    <string name="imtec_scanner_upustvo">Postavi kod u centar kvadrata i skeniraj.</string>
+    <string name="imtec_scanner_rezultat_title">Rezultat</string>
+    <string name="imtec_scanner_rezultat_odustani">Odustani</string>
+    <string name="imtec_scanner_rezultat_kopiraj">Kopiraj</string>
+    <string name="imtec_scanner_posjeti_url">Posjeti URL</string>
+
+    <!-- search view text -->
+    <string name="imtec_search_hint">Pretraga</string>
+    <string name="title_activity_imtec__settings">Postavke</string>
+
+    <!-- Postavke -->
+    <!-- O Aplikaciji -->
+    <string name="pref_header_general">O Aplikaciji</string>
+
+    <!-- Notifikacije -->
+    <string name="pref_header_notifications">Notifikacije</string>
+    <string name="pref_title_new_message_notifications">Dozvoli notifikacije od IMTEC-a</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- Registracija -->
+    <string name="register_disclaimer">IMTEC d.o.o. se obavezuje da ce zastiti vase informacije i da ih ni u kom slucaju nece dijeliti preko interneta ili na bilo koji drugi nacin sa trecim pravnim ili fizickim licima.</string>
+    <string name="register_name_hint">Ime i prezime</string>
+    <string name="register_email_hint">Email</string>
+    <string name="register_phone_hint">Telefon</string>
+    <string name="register_button_text">Potvrdi</string>
+    <string name="register_message">Molimo vas da unesete vase ime, prezime i email kako biste registrovali vasu IMTEC android aplikaciju te ostvarili pogodnosti pri kupovini u IMTEC poslovnicama.</string>
+
+</resources>

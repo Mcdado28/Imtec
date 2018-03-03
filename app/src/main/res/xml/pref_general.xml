@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <Preference
+            android:title="@string/app_name"
+            android:summary="@string/app_summary"
+            android:selectable="false"/>
+
+        <Preference
+            android:title="@string/app_version_title"
+            android:summary="@string/app_version_value"
+            android:selectable="false" />
+
+        <Preference
+            android:title="@string/app_author_title"
+            android:summary="@string/app_author_value"
+            android:selectable="false" />
+
+        <Preference
+            android:title="@string/app_about_title"
+            android:summary="@string/app_about_value"
+            android:selectable="false" />
+
+</PreferenceScreen>

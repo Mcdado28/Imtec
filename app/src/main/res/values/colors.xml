@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BOJE NA FLOATING ACTION MENIJU -->
+    <color name="red_dark">#ff2929</color>
+    <color name="red_light">#ff5252</color>
+    <color name="green_imtec">#2E7D32</color>
+    <color name="green_light">#64A74D</color>
+    <color name="blue">#0277BD</color>
+
+    <!-- UI COLORS -->
+    <color name="colorPrimary">#7B1FA2</color>
+    <color name="colorPrimaryLight">#CA9AD7</color>
+    <color name="colorPrimaryDark">#6A1B9A</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="colorAccentDark">#306E50</color>
+    <color name="cacheColorHint">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="navigationDrawerHeaderBg">#252525</color>
+
+    <!-- LOADER COLORS -->
+    <color name="loaderBgColor">#EEEEEE</color>
+    <color name="loaderAnimationColor">#252525</color>
+
+    <!-- TEXT COLORS -->
+    <color name="textColorPrimary">#424242</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="textColorNavDrawer">#424242</color>
+</resources>

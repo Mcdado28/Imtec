@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:id="@+id/navigation_group"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/imtec_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home_white_24dp"
+            android:title="@string/imtec_home" />
+
+        <item
+            android:id="@+id/qr_code_scanner"
+            android:icon="@drawable/ic_settings_overscan_black_24dp"
+            android:title="@string/qr_code_scanner" />
+
+        </group>
+
+        <group
+            android:id="@+id/navigation_group1"
+            android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/imtec_akcije"
+                android:icon="@drawable/ic_notifications_active_black_24dp"
+                android:title="@string/imtec_akcije" />
+
+
+            <item
+                android:id="@+id/imtec_video_recenzije"
+                android:icon="@drawable/ic_ondemand_video_black_24dp"
+                android:title="@string/imtec_video_recenzije" />
+
+            <item
+                android:id="@+id/imtec_poslovnice"
+                android:icon="@drawable/ic_store_black_24dp"
+                android:title="@string/imtec_poslovnice" />
+
+            <item
+                android:id="@+id/imtec_garancija"
+                android:icon="@drawable/ic_verified_user_black_24dp"
+                android:title="@string/imtec_garancija" />
+            <item
+                android:id="@+id/imtec_servis"
+                android:icon="@drawable/ic_build_black_24dp"
+                android:title="@string/imtec_servis" />
+
+            <item
+                android:id="@+id/imtec_placanje"
+                android:icon="@drawable/ic_payment_black_24dp"
+                android:title="@string/imtec_placanje"
+                />
+
+        </group>
+
+        <group
+            android:id="@+id/navigation_group2"
+            android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/imtec_narudzba"
+                android:icon="@drawable/ic_devices_other_black_24dp"
+                android:title="@string/imtec_narudzba"/>
+
+            <item
+                android:id="@+id/imtec_prijava"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                android:title="@string/imtec_prijava" />
+            <item
+                android:id="@+id/imtec_korpa"
+                android:icon="@drawable/ic_shopping_basket_black_24dp"
+                android:title="@string/imtec_korpa" />
+
+            <item
+                android:id="@+id/imtec_zamjena"
+                android:icon="@drawable/ic_refresh_black_24dp"
+                android:title="@string/imtec_zamjena" />
+
+            <item
+                android:id="@+id/imtec_reklamacija"
+                android:icon="@drawable/ic_backspace_black_24dp"
+                android:title="@string/imtec_reklamacija" />
+
+            <item
+                android:id="@+id/imtec_kontakti"
+                android:icon="@drawable/ic_contact_mail_black_24dp"
+                android:title="@string/imtec_kontakti" />
+        </group>
+
+    <item
+        android:id="@+id/imtec_postavke"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/imtec_postavke" />
+
+</menu>
