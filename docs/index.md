@@ -7,7 +7,7 @@ Application coded for Imtec Web Shop. First Android application I coded in kotli
 
 <div align="center">
 
-<iframe width="420" height="315" src="https://www.youtube.com/watch?v=u1AsllCAQrA">
+<iframe width="420" height="315" src="https://www.youtube.com/embed/u1AsllCAQrA">
 </iframe>
 
 </div>
