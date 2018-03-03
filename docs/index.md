@@ -24,7 +24,7 @@
 Application coded for Imtec Web Shop. First Android application I coded in kotlin and not in Java. Kotlin is amazing, expressive and fast. Switching application from Java to Kotlin significantly improved it's speed and shorten code size by 30% from original Java application.
 
 <div align="center" class="video-container">
-    <iframe width="620" height="349" src="https://www.youtube.com/embed/u1AsllCAQrA?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" data-origwidth="620" data-origheight="349" style="width: 100%; height: auto;"></iframe>
+    <iframe width="620" height="349" src="https://www.youtube.com/embed/u1AsllCAQrA?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" ></iframe>
 </div>
 
 This app supports searching product, filtering products, placing orders and much more. App has barcode scanner included so you can scann qrCodes in Imtec shops. Notifications are supported through [pushbots notifications](https://pushbots.com/).
